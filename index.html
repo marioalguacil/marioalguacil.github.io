@@ -6,6 +6,7 @@
 <meta name="color-scheme" content="light">
 <title>MARIO ALGUACIL</title>
 <meta name="description" content="Web oficial de Mario Alguacil, artista español de Barcelona. Obra, social, series, biografía y contacto.">
+<meta name="google-site-verification" content="qzG4NEt7INlvVTwE58enjR9KAVt6p2gqcogPqo-bJ0c" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -46,9 +47,7 @@ h2{font-size:14px;font-weight:700;margin:0 0 20px}
 .back{display:inline-block;font-size:13px;color:var(--mute);padding:8px 0;margin:-8px 0 20px}
 .back:hover{color:var(--fg)}
 table.menu{width:100%;border-collapse:collapse;margin-top:28px}
-table.menu th{text-align:center;font-weight:400;font-size:11px;color:var(--mute);padding:10px 14px;border:1px solid #d9d9d9}
 table.menu td{text-align:center;padding:18px 14px;border:1px solid #d9d9d9;font-size:15px}
-table.menu td.mi{width:46px;color:var(--mute);font-size:12px}
 table.menu tbody tr{cursor:pointer}
 table.menu tbody tr:hover td,table.menu tbody tr:focus-visible td{background:var(--fg);color:var(--bg)}
 table.menu tbody tr:focus-visible{outline:none}
@@ -149,13 +148,12 @@ html.locked,html.locked body{overflow:hidden;height:100%}
   <div id="home" class="view active home-view">
     <p class="tag"><span id="homeTyped"></span><span class="gate-cursor" aria-hidden="true"></span></p>
     <table class="menu" aria-label="Menú principal">
-      <thead><tr><th>Nº</th><th>Apartado</th></tr></thead>
       <tbody>
-        <tr data-go="obra"><td class="mi">01</td><td>Obras destacadas</td></tr>
-        <tr data-go="social"><td class="mi">02</td><td>Social</td></tr>
-        <tr data-go="series"><td class="mi">03</td><td>Series</td></tr>
-        <tr data-go="bio"><td class="mi">04</td><td>Biografía</td></tr>
-        <tr data-go="contacto"><td class="mi">05</td><td>Contacto</td></tr>
+        <tr data-go="obra"><td>Obras destacadas</td></tr>
+        <tr data-go="social"><td>Social</td></tr>
+        <tr data-go="series"><td>Series</td></tr>
+        <tr data-go="bio"><td>Biografía</td></tr>
+        <tr data-go="contacto"><td>Contacto</td></tr>
       </tbody>
     </table>
   </div>
